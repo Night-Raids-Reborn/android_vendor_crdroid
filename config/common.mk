@@ -169,6 +169,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_PACKAGES_DEBUG += \
     procmem
 
+# AICP Ad-block
+PRODUCT_PACKAGES += \
+    hosts.aicp_adblock
+
 # Root
 PRODUCT_PACKAGES += \
     adb_root
